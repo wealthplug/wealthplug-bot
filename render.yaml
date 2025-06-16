@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: wealthplug-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    plan: free
